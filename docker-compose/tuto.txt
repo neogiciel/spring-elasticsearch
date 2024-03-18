@@ -1,0 +1,29 @@
+##############################
+# Commande url
+##############################
+
+#Ajouter un element dans ma bilitoheque
+curl --location 'http://localhost:9200/ma-bibliotheque/_doc' \
+--header 'Content-Type: application/json' \
+--data '{
+    "titre": "Livre 1", "auteur": ["ruby"], "desciption": "Ce livre est issue dds"
+}'
+
+#searcher ma bliotheque
+curl --location 'localhost:9200/ma-bibliotheque/_search?pretty=null' \
+--header 'Content-Type: application/json'
+
+#Ajouter un livre
+curl -X POST -H "Content-Type: application/json" -d '{"titre": "John", "auteur": "Doe", "desctiption": "Engineering"}' http://localhost:8080/api
+
+#Recherche un livre par id
+http://localhost:8080/api/-pK2Uo4BmSjB06cqcsXq
+
+#retourne la liste de tous les livres
+curl -X GET http://localhost:8080/api
+
+#modifie un livre
+curl -X PUT -H "Content-Type: application/json" -d '{"titre": "test", "auteur": "Doe", "resume": "test"}' http://localhost:8080/api/employees/{id}
+
+#supprime un livre
+curl -X DELETE http://localhost:8080/api/livre/{id}
