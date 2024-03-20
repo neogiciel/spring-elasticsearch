@@ -1,7 +1,7 @@
 # Test
 <img src="https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png" alt="drawing" style="width:200px;"/>
 
-### General Info
+### Informations Générales
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
 ### Screenshot
