@@ -1,6 +1,5 @@
 <h1>Application Spring Boot et elastic Search</h1>
-<img src="[https://upload.wikimedia.org/wikipedia/fr/thumb/6/6b/Redis_Logo.svg/701px-Redis_Logo.svg.png?20190421180155](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Ffr%2Fpng-yjght&psig=AOvVaw0YYyYCvnFtz6ZDbPN3iUzy&ust=1711014263893000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNiks4HHgoUDFQAAAAAdAAAAABAD)" height=160px>
-
+<img src="https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png" height=160px>
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
