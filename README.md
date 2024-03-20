@@ -1,7 +1,7 @@
 <h1>Application Spring Boot Redis MySQL</h1>
 <img src="https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png" alt="drawing" style="width:200px;"/>
 
-### Informations Générales
+## Informations Générales
 ***
 Mise en place d'un moteur de recherche avec Spring-boot
 ## Technologies
@@ -25,7 +25,9 @@ services:
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
-
+```
+L'utilisation
+```
 $ npm install
 $ npm start
 ```
