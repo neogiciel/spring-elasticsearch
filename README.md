@@ -12,7 +12,7 @@ Technologies utilisées:
 * Spring-boot: 3.2.3
 ## Instalation
 ***
-Instalation et lancement du service
+Instalation et lancement du service elasticsearch sur le port 9200
 ```
 Utilisation d'un docker-compose
 version: '3'
@@ -26,12 +26,15 @@ services:
       - discovery.type=single-node
       - xpack.security.enabled=false
 ```
-L'utilisation
+Le lancement service elasticsearch<br>
 ```
-$ npm install
-$ npm start
+docker-compose up -d
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+Lancement de l'application Spring-boot<br>
+```
+$ mvn  clean
+$ mvn spring-boot:run
+```
 ## Collaboration
 ***
 Give instructions on how to collaborate with your project.
