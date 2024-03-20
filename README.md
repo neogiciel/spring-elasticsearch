@@ -1,3 +1,6 @@
+<h1>Application Spring Boot et elastic Search</h1>
+<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/6b/Redis_Logo.svg/701px-Redis_Logo.svg.png?20190421180155" height=160px>
+
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
