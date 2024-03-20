@@ -1,4 +1,4 @@
-## Informations Générales
+## <h1>Informations Générales</h1>
 ***
 # <h1>Application Spring Boot Redis MySQL</h1>
 
