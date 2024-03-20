@@ -1,5 +1,5 @@
 <img src="https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png" alt="drawing" style="width:200px;"/>
-<H1>Test</H1>
+<h1>Test</h1>
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
