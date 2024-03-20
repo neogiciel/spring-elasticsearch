@@ -3,21 +3,29 @@
 
 ### Informations Générales
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+Mise en place d'un moteur de recherche avec Spring-boot
 ## Technologies
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
+Technologies utilisées:
+* Java 17 
+* Maeven 3.6
+* Spring-boot: 3.2.3
+## Instalation
 ***
-A little intro about the installation. 
+Instalation et lancement du service
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
+Utilisation d'un docker-compose
+version: '3'
+services:
+  elasticsearch:
+    image: elasticsearch:8.8.0
+    ports:
+      - 9200:9200
+      - 9300:9300
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+
 $ npm install
 $ npm start
 ```
