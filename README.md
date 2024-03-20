@@ -1,5 +1,5 @@
 <h1>Application Spring Boot Redis MySQL</h1>
-**
+***
 <img src="https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png" alt="drawing" width="280px"/>
 
 ## Informations Générales
@@ -36,16 +36,12 @@ Lancement de l'application Spring-boot<br>
 $ mvn  clean
 $ mvn spring-boot:run
 ```
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+Le service est accessible sur http://localhost:8080
+
 ## FAQs
 ***
-A list of frequently asked questions
-1. **This is a question in bold**
+Remarques
+1. **Aucune Remarque**
 Answer of the first question with _italic words_. 
 2. __Second question in bold__ 
 To answer this question we use an unordered list:
