@@ -1,4 +1,4 @@
-![Image text]([https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg](https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png))
+![Image text](https://user.oc-static.com/upload/2017/10/10/15076639807937_Elasticsearch-Logo-Color-V.jpg.png)
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
